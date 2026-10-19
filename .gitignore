@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# Competition data and course materials are not redistributed (see README)
+*.csv
+*.pdf
+Kaggle/
+
+# Scripts write submission files here
+submissions/*
+!submissions/.gitkeep
+
+# Superseded copy of notebook 06 (same outputs, missing the results summary)
+06_PCA_KMeans_Huber_rerun.ipynb
